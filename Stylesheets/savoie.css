@@ -1,0 +1,448 @@
+/* CSS Document by Webouriffant - http://www.webouriffant.com */
+html, body {
+	height: 100%;
+}
+body {
+	background: #d6d8cb url(/wordpress/wp-content/themes/savoie-union/images/main-layout/background.jpg) no-repeat center 18px;
+}
+.topbar {
+	height:18px;
+	background:#caccbe;
+	width:auto;
+}
+#wrapper {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -63px; /* the bottom margin is the negative value of the footer's height */
+}
+.maincontainer {
+	width:960px;
+	margin:auto;
+	overflow:hidden;
+	position:relative;
+}
+/* GENERALS */
+input[type="text"],
+textarea {
+	background: #f9f9f9;
+	border: 1px solid #ccc;
+	box-shadow: inset 1px 1px 1px rgba(0,0,0,0.1);
+	-moz-box-shadow: inset 1px 1px 1px rgba(0,0,0,0.1);
+	-webkit-box-shadow: inset 1px 1px 1px rgba(0,0,0,0.1);
+	padding: 2px;
+}
+a:link, a:visited  {
+	color: #424242;
+}
+a:active,
+a:hover {
+	color: #222;
+}
+
+/* TOP */
+.top-main {
+	height:120px;
+	width:auto;
+	over:hidden;
+	background:url(/wordpress/wp-content/themes/savoie-union/images/main-layout/frise-top.png) no-repeat bottom;
+	position:relative;
+}
+.logo-savoie {
+	position:absolute;
+	top:26px;
+	left:11px;
+	background:url(/wordpress/wp-content/themes/savoie-union/images/main-layout/logo.png) no-repeat 0 0;
+	width:241px;
+	height:54px;
+	display:block;
+	text-indent:-9999px;
+}
+.logo-savoie:hover {
+	background:url(/wordpress/wp-content/themes/savoie-union/images/main-layout/logo.png) no-repeat 0 -54px;
+}
+.diashow {
+	width:auto;
+	overflow:hidden;
+	height:250px;
+	margin:0 auto 25px auto;
+	width:950px;
+}
+.banners {
+	height:224px;
+	width:924px;
+	overflow:hidden;
+	margin-left:13px;
+	margin-top:13px;
+}
+/* Navigation */
+.nav {
+	position:absolute;
+	top:28px;
+	right:10px;
+}
+.nav li {
+	float:right;
+}
+.nav a, .nav a:link, .nav a:visited {
+	color:#6f6e65;
+	font-size:16px;
+	font-weight:bold;
+	font-family: 'Droid Serif', Georgia, "Times New Roman", Times, serif;
+	text-decoration:none;
+	padding-right:35px;
+	background:url(/wordpress/wp-content/themes/savoie-union/images/main-layout/menu-sep.png) no-repeat right center;
+	margin-left:50px;
+	height:55px;
+	display:inline-block;
+	line-height:55px;
+	text-transform:uppercase;
+}
+.nav a:hover, .nav a:focus, .nav .current_page_item a:link, .current_page_item a:visited, .current_page_item a:hover {
+	color:#424242;
+}
+.nav li:first-child a {
+	padding-right:0;
+	background:transparent;
+}
+/* FOOTER */
+.footer {
+	background: url(/wordpress/wp-content/themes/savoie-union/images/main-layout/frise-btm.png) no-repeat bottom;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.footer, .push {
+	height: 63px; /* .push must be the same height as .footer */
+}
+.footer-left, .footer-right {
+	font-size:10px;
+	color:#5c5c5c;
+	margin-top:10px;
+}
+.footer-left {
+	text-align:left;
+}
+.footer-right {
+	text-align:right;
+	position:relative;
+}
+.footer-right p {
+	margin-right:105px;
+}
+.BTFbLike {
+	position:absolute;
+	right:0;
+	top:-3px;
+}
+.BTFbLike table {
+	float:right;
+}
+/* CONTENT STYLING */
+
+#content {
+	font-size:12px;
+	font-family:Arial, Helvetica, sans-serif;
+	line-height:18px;
+}
+#content h1 {
+	font-family: 'Droid Serif', Georgia, "Times New Roman", Times, serif;
+	color:#424242;
+	font-weight:bold;
+	font-size: 20px;
+	margin-bottom:15px;
+}
+/* Contents blocs */
+.light-bg {
+	background-color:#fff;
+	color:#424242;
+}
+.dark-bg {
+	background-color:#6f6e65;
+	color:#fff;
+}
+.tan-bg {
+	background-color:#ededeb;
+	color:#424242;
+}
+.aside {
+	line-height:100%;
+	margin-bottom:25px;
+}
+.aside p {
+	line-height:18px;
+}
+.pad {
+	padding:10px;
+}
+.spad {
+	padding:8px 7px 5px 7px;
+}
+.nopad{
+	padding:0 !important;
+}
+.margtop{
+	margin-top:10px;
+}
+.margbtm{
+	margin-bottom:10px;
+}
+.margtop.double{
+	margin-top:20px;
+}
+.margbtm.double{
+	margin-bottom:20px;
+}
+/* Homepage */
+.columns {
+min-height:330px;
+}
+
+#box-menu h3{
+	font-family: 'Droid Serif', Georgia, "Times New Roman", Times, serif;
+	font-size:14px;
+	text-align:center;
+	margin-bottom:5px;
+}
+#box-menu ul{
+padding-bottom:18px;
+margin-bottom:10px;
+background:url(../images/ico/menu-spacer.png) no-repeat bottom;
+}
+#box-menu ul:last-child{
+padding-bottom:0;
+margin-bottom:0;
+background:transparent;
+}
+#box-menu ul li{
+text-align:center;
+}
+.visu-cafe {
+	display:block;
+	margin-bottom:5px;
+	background:url(../images/visus/mini-visu-cafe.jpg) no-repeat;
+	width:216px;
+	height:75px;
+}
+.wifi {
+	background:url(../images/ico/ico-wifi.png) no-repeat left center;
+	margin-bottom:5px;
+	display:block;
+	height:25px;
+	position:relative;
+}
+.wifi strong {
+	position:absolute;
+	left:45px;
+	top:9px;
+}
+/* Contact */
+.contact-formulaire {
+	padding-left:20px;
+}
+.contact-formulaire input, .contact-formulaire textarea {
+	background:#d4d4d2;
+	border:1px solid #ababab;
+	padding:5px 2px;
+}
+.contact-formulaire input#si_contact_name1,
+.contact-formulaire input#si_contact_email1,
+.contact-formulaire input#si_contact_subject1,
+.contact-formulaire textarea#si_contact_message1{
+width:340px;
+}
+
+.contact-formulaire .midsize{
+	float:left;
+	width:40%;
+	margin-right:4%;
+}
+.contact-formulaire .thirdsize{
+	float:left;
+	width:28%;
+	margin-right:3%;
+}
+.contact-formulaire .quartersize{
+	float:left;
+	width:22%;
+	margin-right:2%;
+}
+
+.adresse-box {
+	background:#ededeb url(../images/visus/reception.jpg) no-repeat 283px center;
+	height:100px;
+	padding-right:10px;
+}
+.adresse-txt {
+	width:200px;
+	padding:10px 15px;
+	overflow:hidden;
+	color:#424242;
+}
+
+
+/* resto */
+#les-cartes {
+	float:left;
+	width:250px;
+	overflow:hidden;
+}
+#resto-txt {
+	float:left;
+	width:420px;
+	overflow:hidden;
+	margin-left:10px;
+}
+#resto-top-frame {
+	width:auto;
+	overflow:hidden;
+	height:236px;
+}
+/* Hotel */
+#hotel-top-frame {
+	min-height:236px;
+}
+
+/* Box slideshow */
+.hotelbox{
+	width:216px;
+	height:238px;
+	overflow:hidden;
+}
+/*Reservations */
+#hotel-form{
+margin-top:-17px;
+}
+.tab-nav{
+width:auto;
+overflow:hidden;
+}
+a.onglet {
+	float:left;
+	height:50px;
+	line-height:50px;
+	font-family: 'Droid Serif', Georgia, "Times New Roman", Times, serif;
+	color:#424242;
+	font-weight:bold;
+	font-size: 20px;
+	padding-left:15px;
+	padding-right:20px;
+-webkit-border-top-left-radius: 10px;
+-webkit-border-top-right-radius: 10px;
+-moz-border-radius-topleft: 10px;
+-moz-border-radius-topright: 10px;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+text-decoration:none;
+margin-right:3px;
+background:#bfbdb0;
+}
+a.onglet.on {
+	background:#ededeb;
+}
+table.tarifs{
+background:url(../images/tarifs/bg-tableau-tarif.jpg) no-repeat left top;
+height:107px;
+margin-top:20px;
+margin-bottom:20px;
+width:auto;
+}
+table.tarifs td{
+width:108px;
+padding-right:26px;
+vertical-align:baseline;
+}
+table.tarifs div{
+width:108px;
+height:107px;
+position:relative;
+}
+table.tarifs td strong{
+position:absolute;
+bottom:5px;
+width:108px;
+display:block;
+text-align:center;
+}
+table.demi-pension th{
+font-weight:bold;
+text-align:left;
+padding-right:23px;
+}
+
+
+/* Formulaire de reservation */
+#hotel-reservations{
+	padding:40px 60px;
+}
+#hotel-reservations .basic, #hotel-reservations .mini{
+	margin-bottom: 5px;
+}
+#hotel-reservations .basic input{
+	width:200px;
+}
+#hotel-reservations .mini input{
+	width:120px;
+}
+#hotel-reservations #citychoice div{
+	float:left;
+
+}
+#adresse input{
+	width:310px !important;
+}
+#npa-form{
+	width:100px;
+	margin-right:10px;
+}
+#npa-form input{
+	width:80px !important;
+}
+#SubmitBtn-form{
+	text-align:right;
+}
+#SubmitBtn-form input{
+	padding:10px 20px;
+	background:#bfbdb0;
+	color:#fff;
+	text-transform:uppercase;
+	cursor:pointer;
+}
+#SubmitBtn-form input:hover{
+		background:#6f6e65;
+}
+#specialdemand textarea{
+	width:90%;
+
+}
+
+/* Gestion Jquery */
+#hotel-reservations table td{
+padding:3px;
+}
+
+/* Galerie Photos */
+.gallery{
+margin-bottom:40px;
+width:auto;
+overflow:hidden;
+}
+.gallery .gallery-item{
+float:left;
+}
+.gallery br{
+display:none;
+}
+
+.clear, hr{
+	display:block;
+	width:auto;
+	position:relative;
+	clear:both;
+	height:1px;
+	line-height:1px;
+}
+hr{
+	background:#d4d4d2;
+	margin:20px 0;
+	float:none;
+	border:0;
+}
